@@ -18,6 +18,7 @@ $ scrapy crawl cnblog -o filename.json/filename.csv
 
 每一行代表一个用户的数据,url项是其主页地址，followers项是其粉丝的用户名，name项是该用户的用户名。
 
+ <img src="./Data-visualization.png" width = "300" height = "200" alt="图片名称" align=center />
 
 
 
