@@ -18,7 +18,7 @@ $ scrapy crawl cnblog -o filename.json/filename.csv
 
 每一行代表一个用户的数据,url项是其主页地址，followers项是其粉丝的用户名，name项是该用户的用户名。
 
-下图是爬到的部分粉丝数据的可视化效果：
+下图是爬到的部分粉丝数据的可视化效果。图中每个点代表博客园上的一个博客用户，两点之间有连线表示两个用户之间有粉丝关系。可以看到图上有明显几个大小团簇，团簇的中心所代表用户的粉丝明显多于平均状况，这就是所谓的博客大牛：
 <div  align="center">
  <img src="./Data-visualization.png" width = "600" height = "400" alt="图片名称" align='center' />
 </div>
