@@ -8,6 +8,8 @@ $ scrapy crawl cnblog -o filename.json/filename.csv
 
 这个爬虫是用来爬博客园博客网站的用户的粉丝关系的。博客园有20多万用户，最后爬到了其中的18万用户的数据（保存在data.json文件里），剩余的未爬到的2-3万用户应该就是所谓的孤岛用户，即在前面那18万用户之间没有粉丝也没有别的粉丝。
 
+该爬虫的用法的相关介绍可参见我写的一篇博客[scrapy爬取博客园粉丝关系](http://blog.csdn.net/u012176591/article/details/44899987).
+
 爬到的数据格式如下：
 
 >{"url": "http://home.cnblogs.com/u/jinliangjiuzhuang/", "followers": [], "name": "jinliangjiuzhuang"},
