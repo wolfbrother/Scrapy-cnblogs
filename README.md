@@ -1,6 +1,7 @@
 ## 不用爬虫框架的两个爬虫
 + github仓库：https://github.com/wolfbrother/Spiders-ByrBT-ByrBBS
-+ byrBTspider从北邮人BT上爬取电影信息列表；byrBBSspider从北邮人论坛上指定板块爬取符合内容要求的帖子
+  + byrBTspider从北邮人BT上爬取电影信息列表；
+  + yrBBSspider从北邮人论坛上指定板块爬取符合内容要求的帖子
 
 ## 本仓库的基于Scrapy框架的博客园粉丝关系爬虫
 <div  align="center">
